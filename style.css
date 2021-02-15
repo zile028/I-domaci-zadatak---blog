@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.claerfix::after, nav::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.py {
+  padding: 70px 0;
+}
+
+nav {
+  background: #2b333d;
+  padding: 10px 70px;
+}
+
+nav .logo {
+  width: 250px;
+  float: left;
+}
+
+nav ul {
+  float: right;
+  margin-top: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 50px;
+}
+
+nav ul li a:hover {
+  cursor: pointer;
+  color: #02bece;
+}
+
+header img {
+  width: 100%;
+}
+
+.uvod article:last-child {
+  background: #eee;
+  padding: 30px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.uvod article:last-child div {
+  padding: 0 10px;
+}
+
+.naslov {
+  background: #02bece;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.naslov h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog article {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.blog article div {
+  background: #eee;
+  margin-bottom: 20px;
+}
+
+.blog article div:last-child {
+  margin-bottom: 0;
+}
+
+.blog article div img {
+  width: 100%;
+}
+
+.blog article div h2 {
+  margin-bottom: 10px;
+}
+
+.blog article div p {
+  line-height: 1.5;
+}
+
+.blog article div div {
+  padding: 20px;
+}
+
+.blog article div div button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: 1px solid #02bece;
+  background: #02bece;
+  cursor: pointer;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.blog article div div button:hover {
+  background: #eee;
+}
+
+.blog aside {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 50px;
+  color: #fff;
+}
+
+.blog aside div {
+  padding: 40px 30px;
+  background: #2b333d;
+}
+
+.blog aside div h3 {
+  margin-bottom: 10px;
+}
+
+.blog aside div p,
+.blog aside div a {
+  line-height: 1.5;
+}
+
+.blog aside div hr {
+  border: 1px solid #eee;
+}
+
+.blog aside div a {
+  display: block;
+  width: 100%;
+  color: #02bece;
+}
+
+footer {
+  background: #2b333d;
+  text-align: center;
+  color: #fff;
+  padding: 30px 0;
+}
+/*# sourceMappingURL=style.css.map */
